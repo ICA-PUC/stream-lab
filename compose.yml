@@ -1,0 +1,19 @@
+services:
+  server:
+    image: rtmp-server
+    hostname: rtmp-server
+    user: admin
+    volumes:
+      - shared-vol:/home/admin
+    ports:
+      - 1935:1935
+  streamer:
+    image: ffmpeg-streamer
+    hostname: streamer
+    user: admin
+    volumes:
+      - shared-vol:/home/admin
+
+volumes:
+  shared-vol:
+    

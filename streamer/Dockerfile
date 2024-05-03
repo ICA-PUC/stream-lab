@@ -1,13 +1,15 @@
 FROM nvidia/cuda:11.8.0-base-ubuntu22.04
 
+RUN rm -f /etc/apt/sources.list.d/*.list
+
 RUN apt-get update && \
-    apt-get install -y ca-certificates openssl libssl-dev && \
+    apt-get install -y ca-certificates openssl libssl-dev \
     build-essential curl sudo git bzip2 unzip libsdl1.2-dev \
     libx11-6 libx264-dev libx265-dev libnuma-dev libsm6 \
     libxext6 libgl1-mesa-glx yasm autoconf automake cmake \
     git-core libass-dev libfreetype6-dev libgnutls28-dev \
-    libsdl12-dev libtool libva-dev libvdpau-dev \
-    libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixex0-dev \
+    libsdl2-dev libtool libva-dev libvdpau-dev \
+    libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev \
     pkg-config texinfo wget nasm zlib1g-dev nano libvpx-dev \
     libfdk-aac-dev libmp3lame-dev libopus-dev libaom-dev && \
     rm -rf /var/lib/apt/lists/*
@@ -28,6 +30,7 @@ RUN mkdir $HOME/.cache $HOME/.config \
     && chmod -R 777 $HOME
 
 # Build FFMPEG
+# ffmpeg build
 RUN mkdir -pv ~/ffmpeg_source ~/bin \
     && cd ~/ffmpeg_source \
     && wget -O ffmpeg-snapshot.tar.bz2 https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2 \
@@ -55,7 +58,7 @@ RUN mkdir -pv ~/ffmpeg_source ~/bin \
     --enable-nonfree \
     && make -j4 \
     && make install \
-    && hash -r 
+    && hash -r
 
 # install micromamba
 RUN curl -sL https://micro.mamba.pm/api/micromamba/linux-64/1.1.0 \
@@ -74,4 +77,4 @@ RUN micromamba create -qy -n base -f /app/environment.yml \
     && micromamba shell init --shell=bash --prefix="$MAMBA_ROOT_PREFIX" \
     && micromamba clean -qya
 
-CMD ["/bin/bash"]
+ENTRYPOINT [ "docker-entrypoint.sh" ]
