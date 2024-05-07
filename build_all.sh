@@ -1,7 +1,6 @@
 #!/bin/sh
 
-cd server
-docker build -t rtmp-server .
+docker pull tiangolo/nginx-rtmp
 
-cd ../streamer
+cd streamer
 docker build -t ffmpeg-streamer .

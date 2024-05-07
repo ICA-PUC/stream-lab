@@ -1,7 +1,15 @@
 FROM nvidia/cuda:11.8.0-base-ubuntu22.04
 
-RUN rm -f /etc/apt/sources.list.d/*.list
+ENV PATH="/root/miniconda3/bin:${PATH}"
+ARG PATH="/root/miniconda3/bin:${PATH}"
+ENV PATH="/root/ffmpeg_source/ffmpeg:${PATH}"
+ARG DEBIAN_FRONTEND=noninteractive
 
+COPY environment.yml /tmp/environment.yml
+COPY docker-entrypoint.sh /
+RUN chmod +x /docker-entrypoint.sh
+
+RUN rm -f /etc/apt/sources.list.d/*.list
 RUN apt-get update && \
     apt-get install -y ca-certificates openssl libssl-dev \
     build-essential curl sudo git bzip2 unzip libsdl1.2-dev \
@@ -11,23 +19,20 @@ RUN apt-get update && \
     libsdl2-dev libtool libva-dev libvdpau-dev \
     libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev \
     pkg-config texinfo wget nasm zlib1g-dev nano libvpx-dev \
-    libfdk-aac-dev libmp3lame-dev libopus-dev libaom-dev && \
+    libfdk-aac-dev libmp3lame-dev libopus-dev libaom-dev libunistring-dev && \
+    nmap net-tools && \
     rm -rf /var/lib/apt/lists/*
+
+RUN wget \
+    https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
+    && mkdir /root/.conda \
+    && bash Miniconda3-latest-Linux-x86_64.sh -b \
+    && rm -f Miniconda3-latest-Linux-x86_64.sh \
+    && conda env create -n dvc-env --file /tmp/environment.yml
 
 RUN mkdir /app
 WORKDIR /app
-
-# Create non-root user and switch to it.
-RUN adduser --disabled-password --gecos '' --shell /bin/bash user \
-    && chown -R user:user /app
-
-RUN echo "user ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-user
-USER user
-
-# All users can use /home/user as their home directory
-ENV HOME=/home/user
-RUN mkdir $HOME/.cache $HOME/.config \
-    && chmod -R 777 $HOME
+COPY data/sa09.yuv /app/sa09.yuv
 
 # Build FFMPEG
 # ffmpeg build
@@ -60,21 +65,5 @@ RUN mkdir -pv ~/ffmpeg_source ~/bin \
     && make install \
     && hash -r
 
-# install micromamba
-RUN curl -sL https://micro.mamba.pm/api/micromamba/linux-64/1.1.0 \
-    | sudo tar -xvj -C /usr/local bin/micromamba
-
-ENV MAMBA_EXE=/usr/local/bin/micromamba \
-    MAMBA_ROOT_PREFIX=/home/user/micromamba \
-    CONDA_PREFIX=/home/user/micromamba \
-    PATH=/home/user/micromamba/bin:$PATH
-
-# set up the base conda env by install pytorch and friend
-COPY environment.yml /app/environment.yml
-
-RUN micromamba create -qy -n base -f /app/environment.yml \
-    && rm /app/environment.yml \
-    && micromamba shell init --shell=bash --prefix="$MAMBA_ROOT_PREFIX" \
-    && micromamba clean -qya
-
-ENTRYPOINT [ "docker-entrypoint.sh" ]
+ENTRYPOINT [ "/docker-entrypoint.sh" ]
+# CMD [ "/bin/bash" ]
