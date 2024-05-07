@@ -3,6 +3,7 @@ FROM nvidia/cuda:11.8.0-base-ubuntu22.04
 ENV PATH="/root/miniconda3/bin:${PATH}"
 ARG PATH="/root/miniconda3/bin:${PATH}"
 ENV PATH="/root/ffmpeg_source/ffmpeg:${PATH}"
+ARG PATH="/root/ffmpeg_source/ffmpeg:${PATH}"
 ARG DEBIAN_FRONTEND=noninteractive
 
 COPY environment.yml /tmp/environment.yml
@@ -19,7 +20,7 @@ RUN apt-get update && \
     libsdl2-dev libtool libva-dev libvdpau-dev \
     libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev \
     pkg-config texinfo wget nasm zlib1g-dev nano libvpx-dev \
-    libfdk-aac-dev libmp3lame-dev libopus-dev libaom-dev libunistring-dev && \
+    libfdk-aac-dev libmp3lame-dev libopus-dev libaom-dev libunistring-dev \
     nmap net-tools && \
     rm -rf /var/lib/apt/lists/*
 
