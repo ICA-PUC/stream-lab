@@ -66,5 +66,5 @@ RUN mkdir -pv ~/ffmpeg_source ~/bin \
     && make install \
     && hash -r
 
-ENTRYPOINT [ "/docker-entrypoint.sh" ]
-# CMD [ "/bin/bash" ]
+# ENTRYPOINT [ "/docker-entrypoint.sh" ]
+CMD [ "/bin/bash" ]

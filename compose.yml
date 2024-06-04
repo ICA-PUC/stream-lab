@@ -7,4 +7,7 @@ services:
   streamer:
     image: ffmpeg-streamer
     hostname: streamer
+    volumes:
+      - ./streamer:/streamer
+    command: /streamer/run_stream.sh
     
