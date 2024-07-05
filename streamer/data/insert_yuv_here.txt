@@ -1,0 +1,1 @@
+Please insert the .yuv file to be streamed in this folder and adjust its filename in the Dockerfile

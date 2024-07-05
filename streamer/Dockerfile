@@ -33,7 +33,7 @@ RUN wget \
 
 RUN mkdir /app
 WORKDIR /app
-COPY ./data/sa09.yuv /app/sa09.yuv
+COPY ./data/ciro-23.yuv /app/ciro-23.yuv
 
 # Build FFMPEG
 # ffmpeg build
