@@ -10,4 +10,9 @@ services:
     volumes:
       - ./streamer:/streamer
     command: /streamer/run_stream.sh
-    
+  sniffer:
+    image: lscr.io/linuxserver/wireshark:latest
+    hostname: sniffer
+    ports:
+      - 3000:3000
+      - 3001:3001
