@@ -1,6 +1,11 @@
+"""Consume RTMP streaming"""
+import sys
 import cv2
 
-cap = cv2.VideoCapture("rtmp://172.18.0.3/live/test")
+stream_ip = sys.argv[1]
+
+cap = cv2.VideoCapture(f"rtmp://{stream_ip}/live/test")
+
 while cap.isOpened():
     ret, frame = cap.read()
     if ret:
