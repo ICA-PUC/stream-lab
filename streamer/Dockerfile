@@ -7,8 +7,6 @@ ARG PATH="/root/ffmpeg_source/ffmpeg:${PATH}"
 ARG DEBIAN_FRONTEND=noninteractive
 
 COPY environment.yml /tmp/environment.yml
-COPY docker-entrypoint.sh /
-RUN chmod +x /docker-entrypoint.sh
 
 RUN rm -f /etc/apt/sources.list.d/*.list
 RUN apt-get update && \
@@ -33,7 +31,6 @@ RUN wget \
 
 RUN mkdir /app
 WORKDIR /app
-COPY ./data/ciro-23.yuv /app/ciro-23.yuv
 
 # Build FFMPEG
 # ffmpeg build
@@ -66,5 +63,4 @@ RUN mkdir -pv ~/ffmpeg_source ~/bin \
     && make install \
     && hash -r
 
-# ENTRYPOINT [ "/docker-entrypoint.sh" ]
 CMD [ "/bin/bash" ]

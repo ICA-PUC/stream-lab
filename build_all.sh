@@ -1,4 +1,5 @@
 #!/bin/sh
 
 docker pull tiangolo/nginx-rtmp
-docker build --no-cache -t ffmpeg-streamer streamer/
+docker pull jjanzic/docker-python3-opencv
+docker build -t undersea/streamer streamer/
