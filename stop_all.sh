@@ -1,12 +1,12 @@
 #!/bin/sh
 
 docker stop \
-    consumer-undersea \
+    viewer-undersea \
     streamer-undersea \
     rtmp-server-undersea \
 
 docker rm \
-    consumer-undersea \
+    viewer-undersea \
     streamer-undersea \
     rtmp-server-undersea \
 

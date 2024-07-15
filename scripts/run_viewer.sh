@@ -1,8 +1,8 @@
 #!/bin/sh
 
-docker run -it \
+docker run -d \
     -v ./viewer:/viewer \
     --name viewer-undersea \
     --network undersea-stream-lab \
     undersea/viewer \
-    python -m ffmpeg_bitrate_stats -rd 60 rtmp://rtmp-server/live/test
+    /bin/bash /viewer/probe_stream.sh
