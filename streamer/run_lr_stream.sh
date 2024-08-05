@@ -11,4 +11,4 @@ ffmpeg -pix_fmt yuv420p \
     -r 5 \
     -maxrate 80k \
     -bufsize 320k \
-    -f flv "rtmp://rtmp-server/live/test"
+    -f flv "rtmp://rtmp-lr-server/live/test"

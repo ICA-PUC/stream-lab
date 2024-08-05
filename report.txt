@@ -1,0 +1,43 @@
+# slow network metrics
+    Download: 2.46 Mbit/s
+    Upload: 0.17 Mbit/s
+
+# single stream, free network
+    "avg_fps": 5.0,
+    "num_frames": 300,
+    "avg_bitrate": 80.198,
+    "avg_bitrate_over_chunks": 100.247,
+    "max_bitrate": 110.49,
+    "min_bitrate": 90.53,
+    "max_bitrate_factor": 1.378,
+    "aggregation": "time",
+    "chunk_size": 1.0,
+    "duration": 60.0
+    SSIM Y:0.616244 (4.159443) U:0.861063 (8.571819) V:0.822643 (7.511508) All:0.691447 (5.106697)
+    PSNR y:15.082094 u:28.131311 v:25.626990 average:16.695951 min:13.519248 max:29.088188
+
+# single stream, slow network
+    "avg_fps": 5.0,
+    "num_frames": 300,
+    "avg_bitrate": 80.227,
+    "avg_bitrate_over_chunks": 100.283,
+    "max_bitrate": 111.08,
+    "min_bitrate": 91.77,
+    "max_bitrate_factor": 1.385,
+    "aggregation": "time",
+    "chunk_size": 1.0,
+    "duration": 60.0
+    SSIM Y:0.616244 (4.159443) U:0.861063 (8.571819) V:0.822643 (7.511508) All:0.691447 (5.106697)
+    PSNR y:15.082094 u:28.131311 v:25.626990 average:16.695951 min:13.519248 max:29.088188
+
+
+# multiple stream, slow network
+    "avg_fps": 5.0,
+    "num_frames": 300,
+    "avg_bitrate": 80.227,
+    "avg_bitrate_over_chunks": 100.284,
+    "max_bitrate": 110.38,
+    "min_bitrate": 91.09,
+    "max_bitrate_factor": 1.376,
+    SSIM Y:0.616244 (4.159443) U:0.861063 (8.571819) V:0.822643 (7.511508) All:0.691447 (5.106697)
+    PSNR y:15.082094 u:28.131311 v:25.626990 average:16.695951 min:13.519248 max:29.088188

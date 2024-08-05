@@ -1,7 +1,9 @@
 #!/bin/sh
 
+echo "##################"
 echo "Saving stream to MP4..."
-ffmpeg -i "rtmp://rtmp-server/live/test" \
+rm /viewer/out_stream.mp4
+ffmpeg -i "rtmp://rtmp-lr-server/live/test" \
     -pixel_format yuv420p \
     -video_size 640x320 \
     -preset ultrafast \
@@ -13,3 +15,4 @@ ffmpeg -i "rtmp://rtmp-server/live/test" \
     -t 00:01:10 \
     /viewer/out_stream.mp4
 echo "Done!"
+echo "##################"
