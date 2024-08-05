@@ -12,7 +12,7 @@ ffmpeg -i "rtmp://rtmp-lr-server/live/test" \
     -r 5 \
     -maxrate 80k \
     -bufsize 320k \
-    -t 00:01:10 \
+    -t 00:00:10 \
     /viewer/out_stream.mp4
 echo "Done!"
 echo "##################"

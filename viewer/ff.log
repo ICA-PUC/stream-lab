@@ -1,4 +1,4 @@
-ffmpeg started on 2024-08-02 at 13:01:51
+ffmpeg started on 2024-08-05 at 17:27:44
 Report written to "/viewer/ff.log"
 Log level: 56
 Command line:
@@ -31,15 +31,15 @@ Successfully parsed a group of options.
 Parsing a group of options: input url /viewer/out_stream.yuv.
 Successfully parsed a group of options.
 Opening an input file: /viewer/out_stream.yuv.
-[AVFormatContext @ 0x55a43f2ffbc0] Opening '/viewer/out_stream.yuv' for reading
-[file @ 0x55a43f300300] Setting default whitelist 'file,crypto,data'
-[rawvideo @ 0x55a43f2ffbc0] Format rawvideo probed with size=2048 and score=50
-[rawvideo @ 0x55a43f2ffbc0] Before avformat_find_stream_info() pos: 0 bytes read:32768 seeks:0 nb_streams:1
-[rawvideo @ 0x55a43f2ffbc0] All info found
-[rawvideo @ 0x55a43f2ffbc0] Estimating duration from bitrate, this may be inaccurate
-[rawvideo @ 0x55a43f2ffbc0] stream 0: start_time: 0 duration: 14
-[rawvideo @ 0x55a43f2ffbc0] format: start_time: 0 duration: 14 (estimate from bit rate) bitrate=61440 kb/s
-[rawvideo @ 0x55a43f2ffbc0] After avformat_find_stream_info() pos: 307200 bytes read:307200 seeks:0 frames:1
+[AVFormatContext @ 0x55a38e7fcbc0] Opening '/viewer/out_stream.yuv' for reading
+[file @ 0x55a38e7fd300] Setting default whitelist 'file,crypto,data'
+[rawvideo @ 0x55a38e7fcbc0] Format rawvideo probed with size=2048 and score=50
+[rawvideo @ 0x55a38e7fcbc0] Before avformat_find_stream_info() pos: 0 bytes read:32768 seeks:0 nb_streams:1
+[rawvideo @ 0x55a38e7fcbc0] All info found
+[rawvideo @ 0x55a38e7fcbc0] Estimating duration from bitrate, this may be inaccurate
+[rawvideo @ 0x55a38e7fcbc0] stream 0: start_time: 0 duration: 14
+[rawvideo @ 0x55a38e7fcbc0] format: start_time: 0 duration: 14 (estimate from bit rate) bitrate=61440 kb/s
+[rawvideo @ 0x55a38e7fcbc0] After avformat_find_stream_info() pos: 307200 bytes read:307200 seeks:0 frames:1
 Input #0, rawvideo, from '/viewer/out_stream.yuv':
   Duration: 00:00:14.00, start: 0.000000, bitrate: 61440 kb/s
   Stream #0:0, 1, 1/25: Video: rawvideo (I420 / 0x30323449), yuv420p, 640x320, 61440 kb/s, 25 tbr, 25 tbn
@@ -47,15 +47,15 @@ Successfully opened the file.
 Parsing a group of options: input url /viewer/ciro-23.yuv.
 Successfully parsed a group of options.
 Opening an input file: /viewer/ciro-23.yuv.
-[AVFormatContext @ 0x55a43f303580] Opening '/viewer/ciro-23.yuv' for reading
-[file @ 0x55a43f303d40] Setting default whitelist 'file,crypto,data'
-[rawvideo @ 0x55a43f303580] Format rawvideo probed with size=2048 and score=50
-[rawvideo @ 0x55a43f303580] Before avformat_find_stream_info() pos: 0 bytes read:32768 seeks:0 nb_streams:1
-[rawvideo @ 0x55a43f303580] All info found
-[rawvideo @ 0x55a43f303580] Estimating duration from bitrate, this may be inaccurate
-[rawvideo @ 0x55a43f303580] stream 0: start_time: 0 duration: 11.96
-[rawvideo @ 0x55a43f303580] format: start_time: 0 duration: 11.96 (estimate from bit rate) bitrate=61440 kb/s
-[rawvideo @ 0x55a43f303580] After avformat_find_stream_info() pos: 307200 bytes read:307200 seeks:0 frames:1
+[AVFormatContext @ 0x55a38e800580] Opening '/viewer/ciro-23.yuv' for reading
+[file @ 0x55a38e800d40] Setting default whitelist 'file,crypto,data'
+[rawvideo @ 0x55a38e800580] Format rawvideo probed with size=2048 and score=50
+[rawvideo @ 0x55a38e800580] Before avformat_find_stream_info() pos: 0 bytes read:32768 seeks:0 nb_streams:1
+[rawvideo @ 0x55a38e800580] All info found
+[rawvideo @ 0x55a38e800580] Estimating duration from bitrate, this may be inaccurate
+[rawvideo @ 0x55a38e800580] stream 0: start_time: 0 duration: 11.96
+[rawvideo @ 0x55a38e800580] format: start_time: 0 duration: 11.96 (estimate from bit rate) bitrate=61440 kb/s
+[rawvideo @ 0x55a38e800580] After avformat_find_stream_info() pos: 307200 bytes read:307200 seeks:0 frames:1
 Input #1, rawvideo, from '/viewer/ciro-23.yuv':
   Duration: 00:00:11.96, start: 0.000000, bitrate: 61440 kb/s
   Stream #1:0, 1, 1/25: Video: rawvideo (I420 / 0x30323449), yuv420p, 640x320, 61440 kb/s, 25 tbr, 25 tbn
@@ -64,18 +64,18 @@ Parsing a group of options: output url -.
 Applying option f (force container format (auto-detected otherwise)) with argument null.
 Successfully parsed a group of options.
 Opening an output file: -.
-[out#0/null @ 0x55a43f2fd9c0] Creating output stream from unlabeled output of complex filtergraph 0. This overrides automatic video mapping.
-[vost#0:0/wrapped_avframe @ 0x55a43f307180] Created video stream from complex filtergraph 0:[ssim:default]
-[vost#0:0/wrapped_avframe @ 0x55a43f307180] 
-[out#0/null @ 0x55a43f2fd9c0] Creating output stream from unlabeled output of complex filtergraph 0. This overrides automatic video mapping.
-[vost#0:1/wrapped_avframe @ 0x55a43f3106c0] Created video stream from complex filtergraph 0:[psnr:default]
-[vost#0:1/wrapped_avframe @ 0x55a43f3106c0] 
-[out#0/null @ 0x55a43f2fd9c0] No explicit maps, mapping streams automatically...
+[out#0/null @ 0x55a38e7fa9c0] Creating output stream from unlabeled output of complex filtergraph 0. This overrides automatic video mapping.
+[vost#0:0/wrapped_avframe @ 0x55a38e804180] Created video stream from complex filtergraph 0:[ssim:default]
+[vost#0:0/wrapped_avframe @ 0x55a38e804180] 
+[out#0/null @ 0x55a38e7fa9c0] Creating output stream from unlabeled output of complex filtergraph 0. This overrides automatic video mapping.
+[vost#0:1/wrapped_avframe @ 0x55a38e80d6c0] Created video stream from complex filtergraph 0:[psnr:default]
+[vost#0:1/wrapped_avframe @ 0x55a38e80d6c0] 
+[out#0/null @ 0x55a38e7fa9c0] No explicit maps, mapping streams automatically...
 Successfully opened the file.
-[fc#0 @ 0x55a43f2fbd00] Binding input with label '0' to input stream 0:0
-[fc#0 @ 0x55a43f2fbd00] Binding input with label '1' to input stream 1:0
-[fc#0 @ 0x55a43f2fbd00] Binding input with label '0' to input stream 0:0
-[fc#0 @ 0x55a43f2fbd00] Binding input with label '1' to input stream 1:0
+[fc#0 @ 0x55a38e7f8d00] Binding input with label '0' to input stream 0:0
+[fc#0 @ 0x55a38e7f8d00] Binding input with label '1' to input stream 1:0
+[fc#0 @ 0x55a38e7f8d00] Binding input with label '0' to input stream 0:0
+[fc#0 @ 0x55a38e7f8d00] Binding input with label '1' to input stream 1:0
 Stream mapping:
   Stream #0:0 (rawvideo) -> ssim
   Stream #0:0 (rawvideo) -> psnr
@@ -83,65 +83,65 @@ Stream mapping:
   Stream #1:0 (rawvideo) -> psnr
   ssim:default -> Stream #0:0 (wrapped_avframe)
   psnr:default -> Stream #0:1 (wrapped_avframe)
-[vost#0:0/wrapped_avframe @ 0x55a43f307180] Starting thread...
-[vost#0:1/wrapped_avframe @ 0x55a43f3106c0] Starting thread...
-[fc#0 @ 0x55a43f2fbd00] Starting thread...
-[vist#0:0/rawvideo @ 0x55a43f302980] [dec:rawvideo @ 0x55a43f312180] Starting thread...
-[vist#1:0/rawvideo @ 0x55a43f3060c0] [dec:rawvideo @ 0x55a43f313f40] Starting thread...
-[in#0/rawvideo @ 0x55a43f2ff940] Starting thread...
-[in#1/rawvideo @ 0x55a43f303180] Starting thread...
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
+[vost#0:0/wrapped_avframe @ 0x55a38e804180] Starting thread...
+[vost#0:1/wrapped_avframe @ 0x55a38e80d6c0] Starting thread...
+[fc#0 @ 0x55a38e7f8d00] Starting thread...
+[vist#0:0/rawvideo @ 0x55a38e7ff980] [dec:rawvideo @ 0x55a38e80f180] Starting thread...
+[vist#1:0/rawvideo @ 0x55a38e8030c0] [dec:rawvideo @ 0x55a38e810f40] Starting thread...
+[in#0/rawvideo @ 0x55a38e7fc940] Starting thread...
+[in#1/rawvideo @ 0x55a38e800180] Starting thread...
 Press [q] to stop, [?] for help
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
 detected 16 logical cores
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[graph 0 input from stream 0:0 @ 0x7efc78005080] Setting 'video_size' to value '640x320'
-[graph 0 input from stream 0:0 @ 0x7efc78005080] Setting 'pix_fmt' to value '0'
-[graph 0 input from stream 0:0 @ 0x7efc78005080] Setting 'time_base' to value '1/25'
-[graph 0 input from stream 0:0 @ 0x7efc78005080] Setting 'pixel_aspect' to value '0/1'
-[graph 0 input from stream 0:0 @ 0x7efc78005080] Setting 'colorspace' to value '2'
-[graph 0 input from stream 0:0 @ 0x7efc78005080] Setting 'range' to value '0'
-[graph 0 input from stream 0:0 @ 0x7efc78005080] Setting 'frame_rate' to value '25/1'
-[graph 0 input from stream 0:0 @ 0x7efc78005080] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
-[graph 0 input from stream 1:0 @ 0x7efc78006800] Setting 'video_size' to value '640x320'
-[graph 0 input from stream 1:0 @ 0x7efc78006800] Setting 'pix_fmt' to value '0'
-[graph 0 input from stream 1:0 @ 0x7efc78006800] Setting 'time_base' to value '1/25'
-[graph 0 input from stream 1:0 @ 0x7efc78006800] Setting 'pixel_aspect' to value '0/1'
-[graph 0 input from stream 1:0 @ 0x7efc78006800] Setting 'colorspace' to value '2'
-[graph 0 input from stream 1:0 @ 0x7efc78006800] Setting 'range' to value '0'
-[graph 0 input from stream 1:0 @ 0x7efc78006800] Setting 'frame_rate' to value '25/1'
-[graph 0 input from stream 1:0 @ 0x7efc78006800] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
-[graph 0 input from stream 0:0 @ 0x7efc78008000] Setting 'video_size' to value '640x320'
-[graph 0 input from stream 0:0 @ 0x7efc78008000] Setting 'pix_fmt' to value '0'
-[graph 0 input from stream 0:0 @ 0x7efc78008000] Setting 'time_base' to value '1/25'
-[graph 0 input from stream 0:0 @ 0x7efc78008000] Setting 'pixel_aspect' to value '0/1'
-[graph 0 input from stream 0:0 @ 0x7efc78008000] Setting 'colorspace' to value '2'
-[graph 0 input from stream 0:0 @ 0x7efc78008000] Setting 'range' to value '0'
-[graph 0 input from stream 0:0 @ 0x7efc78008000] Setting 'frame_rate' to value '25/1'
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[graph 0 input from stream 0:0 @ 0x7efc78008000] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
-[graph 0 input from stream 1:0 @ 0x7efc78009800] Setting 'video_size' to value '640x320'
-[graph 0 input from stream 1:0 @ 0x7efc78009800] Setting 'pix_fmt' to value '0'
-[graph 0 input from stream 1:0 @ 0x7efc78009800] Setting 'time_base' to value '1/25'
-[graph 0 input from stream 1:0 @ 0x7efc78009800] Setting 'pixel_aspect' to value '0/1'
-[graph 0 input from stream 1:0 @ 0x7efc78009800] Setting 'colorspace' to value '2'
-[graph 0 input from stream 1:0 @ 0x7efc78009800] Setting 'range' to value '0'
-[graph 0 input from stream 1:0 @ 0x7efc78009800] Setting 'frame_rate' to value '25/1'
-[graph 0 input from stream 1:0 @ 0x7efc78009800] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
-[AVFilterGraph @ 0x7efc78001880] query_formats: 8 queried, 18 merged, 0 already done, 0 delayed
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] [framesync @ 0x7efc78004308] Selected 1/25 time base
-[Parsed_ssim_0 @ 0x7efc78004200] [framesync @ 0x7efc78004308] Sync level 2
-[Parsed_psnr_1 @ 0x7efc78004640] [framesync @ 0x7efc78004788] Selected 1/25 time base
-[Parsed_psnr_1 @ 0x7efc78004640] [framesync @ 0x7efc78004788] Sync level 2
-[graph 0 input from stream 0:0 @ 0x7efc78005080] video frame properties congruent with link at pts_time: 0
-[graph 0 input from stream 1:0 @ 0x7efc78006800] video frame properties congruent with link at pts_time: 0
-[graph 0 input from stream 0:0 @ 0x7efc78008000] video frame properties congruent with link at pts_time: 0
-[graph 0 input from stream 1:0 @ 0x7efc78009800] video frame properties congruent with link at pts_time: 0
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[graph 0 input from stream 0:0 @ 0x7f6188005080] Setting 'video_size' to value '640x320'
+[graph 0 input from stream 0:0 @ 0x7f6188005080] Setting 'pix_fmt' to value '0'
+[graph 0 input from stream 0:0 @ 0x7f6188005080] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 0:0 @ 0x7f6188005080] Setting 'pixel_aspect' to value '0/1'
+[graph 0 input from stream 0:0 @ 0x7f6188005080] Setting 'colorspace' to value '2'
+[graph 0 input from stream 0:0 @ 0x7f6188005080] Setting 'range' to value '0'
+[graph 0 input from stream 0:0 @ 0x7f6188005080] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 0:0 @ 0x7f6188005080] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
+[graph 0 input from stream 1:0 @ 0x7f6188006800] Setting 'video_size' to value '640x320'
+[graph 0 input from stream 1:0 @ 0x7f6188006800] Setting 'pix_fmt' to value '0'
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[graph 0 input from stream 1:0 @ 0x7f6188006800] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 0x7f6188006800] Setting 'pixel_aspect' to value '0/1'
+[graph 0 input from stream 1:0 @ 0x7f6188006800] Setting 'colorspace' to value '2'
+[graph 0 input from stream 1:0 @ 0x7f6188006800] Setting 'range' to value '0'
+[graph 0 input from stream 1:0 @ 0x7f6188006800] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 0x7f6188006800] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
+[graph 0 input from stream 0:0 @ 0x7f6188008000] Setting 'video_size' to value '640x320'
+[graph 0 input from stream 0:0 @ 0x7f6188008000] Setting 'pix_fmt' to value '0'
+[graph 0 input from stream 0:0 @ 0x7f6188008000] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 0:0 @ 0x7f6188008000] Setting 'pixel_aspect' to value '0/1'
+[graph 0 input from stream 0:0 @ 0x7f6188008000] Setting 'colorspace' to value '2'
+[graph 0 input from stream 0:0 @ 0x7f6188008000] Setting 'range' to value '0'
+[graph 0 input from stream 0:0 @ 0x7f6188008000] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 0:0 @ 0x7f6188008000] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[graph 0 input from stream 1:0 @ 0x7f6188009800] Setting 'video_size' to value '640x320'
+[graph 0 input from stream 1:0 @ 0x7f6188009800] Setting 'pix_fmt' to value '0'
+[graph 0 input from stream 1:0 @ 0x7f6188009800] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 0x7f6188009800] Setting 'pixel_aspect' to value '0/1'
+[graph 0 input from stream 1:0 @ 0x7f6188009800] Setting 'colorspace' to value '2'
+[graph 0 input from stream 1:0 @ 0x7f6188009800] Setting 'range' to value '0'
+[graph 0 input from stream 1:0 @ 0x7f6188009800] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 0x7f6188009800] w:640 h:320 pixfmt:yuv420p tb:1/25 fr:25/1 sar:0/1 csp:unknown range:unknown
+[AVFilterGraph @ 0x7f6188001880] query_formats: 8 queried, 18 merged, 0 already done, 0 delayed
+[Parsed_ssim_0 @ 0x7f6188004200] [framesync @ 0x7f6188004308] Selected 1/25 time base
+[Parsed_ssim_0 @ 0x7f6188004200] [framesync @ 0x7f6188004308] Sync level 2
+[Parsed_psnr_1 @ 0x7f6188004640] [framesync @ 0x7f6188004788] Selected 1/25 time base
+[Parsed_psnr_1 @ 0x7f6188004640] [framesync @ 0x7f6188004788] Sync level 2
+[graph 0 input from stream 0:0 @ 0x7f6188005080] video frame properties congruent with link at pts_time: 0
+[graph 0 input from stream 1:0 @ 0x7f6188006800] video frame properties congruent with link at pts_time: 0
+[graph 0 input from stream 0:0 @ 0x7f6188008000] video frame properties congruent with link at pts_time: 0
+[graph 0 input from stream 1:0 @ 0x7f6188009800] video frame properties congruent with link at pts_time: 0
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
 Output #0, null, to 'pipe:':
   Metadata:
     encoder         : Lavf61.5.101
@@ -151,1281 +151,1281 @@ Output #0, null, to 'pipe:':
   Stream #0:1, 0, 1/25: Video: wrapped_avframe, yuv420p(progressive), 640x320, q=2-31, 200 kb/s, 25 fps, 25 tbn
       Metadata:
         encoder         : Lavc61.10.100 wrapped_avframe
-[out#0/null @ 0x55a43f2fd9c0] Starting thread...
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[in#1/rawvideo @ 0x55a43f303180] EOF while reading input
-[in#1/rawvideo @ 0x55a43f303180] Terminating thread with return code 0 (success)
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f3149c0] PACKET SIZE: 307200, STRIDE: 960
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[vist#1:0/rawvideo @ 0x55a43f3060c0] [dec:rawvideo @ 0x55a43f313f40] Decoder thread received EOF packet
-[vist#1:0/rawvideo @ 0x55a43f3060c0] [dec:rawvideo @ 0x55a43f313f40] Decoder returned EOF, finishing
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[vist#1:0/rawvideo @ 0x55a43f3060c0] [dec:rawvideo @ 0x55a43f313f40] Terminating thread with return code 0 (success)
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[Parsed_ssim_0 @ 0x7efc78004200] Copying data in avfilter.
-[Parsed_psnr_1 @ 0x7efc78004640] Copying data in avfilter.
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[in#0/rawvideo @ 0x55a43f2ff940] EOF while reading input
-[in#0/rawvideo @ 0x55a43f2ff940] Terminating thread with return code 0 (success)
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[rawvideo @ 0x55a43f312c00] PACKET SIZE: 307200, STRIDE: 960
-[vist#0:0/rawvideo @ 0x55a43f302980] [dec:rawvideo @ 0x55a43f312180] Decoder thread received EOF packet
-[vist#0:0/rawvideo @ 0x55a43f302980] [dec:rawvideo @ 0x55a43f312180] Decoder returned EOF, finishing
-[vist#0:0/rawvideo @ 0x55a43f302980] [dec:rawvideo @ 0x55a43f312180] Terminating thread with return code 0 (success)
-[Parsed_ssim_0 @ 0x7efc78004200] [framesync @ 0x7efc78004308] Sync level 0
-[out_#0:0 @ 0x7efc7800af00] EOF on sink link out_#0:0:default.
-[Parsed_psnr_1 @ 0x7efc78004640] [framesync @ 0x7efc78004788] Sync level 0
-[out_#0:1 @ 0x7efc7800b400] EOF on sink link out_#0:1:default.
-[fc#0 @ 0x55a43f2fbd00] Filtergraph returned EOF, finishing
-[fc#0 @ 0x55a43f2fbd00] All consumers returned EOF
-[vost#0:1/wrapped_avframe @ 0x55a43f3106c0] Encoder thread received EOF
-[vost#0:1/wrapped_avframe @ 0x55a43f3106c0] Terminating thread with return code 0 (success)
-[vost#0:0/wrapped_avframe @ 0x55a43f307180] Encoder thread received EOF
-[Parsed_ssim_0 @ 0x7efc78004200] SSIM Y:0.616244 (4.159443) U:0.861063 (8.571819) V:0.822643 (7.511508) All:0.691447 (5.106697)
-[vost#0:0/wrapped_avframe @ 0x55a43f307180] Terminating thread with return code 0 (success)
-[out#0/null @ 0x55a43f2fd9c0] All streams finished
-[out#0/null @ 0x55a43f2fd9c0] Terminating thread with return code 0 (success)
-[Parsed_psnr_1 @ 0x7efc78004640] PSNR y:15.082094 u:28.131311 v:25.626990 average:16.695951 min:13.519248 max:29.088188
-[fc#0 @ 0x55a43f2fbd00] Terminating thread with return code 0 (success)
-[out#0/null @ 0x55a43f2fd9c0] Output file #0 (pipe:):
-[out#0/null @ 0x55a43f2fd9c0]   Output stream #0:0 (video): 350 frames encoded; 350 packets muxed (154000 bytes); 
-[out#0/null @ 0x55a43f2fd9c0]   Output stream #0:1 (video): 350 frames encoded; 350 packets muxed (154000 bytes); 
-[out#0/null @ 0x55a43f2fd9c0]   Total: 700 packets (308000 bytes) muxed
-[out#0/null @ 0x55a43f2fd9c0] video:301KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
-frame=  350 fps=0.0 q=-0.0 Lq=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed= 253x    
-[in#0/rawvideo @ 0x55a43f2ff940] Input file #0 (/viewer/out_stream.yuv):
-[in#0/rawvideo @ 0x55a43f2ff940]   Input stream #0:0 (video): 350 packets read (107520000 bytes); 350 frames decoded; 0 decode errors; 
-[in#0/rawvideo @ 0x55a43f2ff940]   Total: 350 packets (107520000 bytes) demuxed
-[AVIOContext @ 0x55a43f300480] Statistics: 107520000 bytes read, 0 seeks
-[in#1/rawvideo @ 0x55a43f303180] Input file #1 (/viewer/ciro-23.yuv):
-[in#1/rawvideo @ 0x55a43f303180]   Input stream #1:0 (video): 299 packets read (91852800 bytes); 299 frames decoded; 0 decode errors; 
-[in#1/rawvideo @ 0x55a43f303180]   Total: 299 packets (91852800 bytes) demuxed
-[AVIOContext @ 0x55a43f2fd640] Statistics: 91852800 bytes read, 0 seeks
+[out#0/null @ 0x55a38e7fa9c0] Starting thread...
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[in#1/rawvideo @ 0x55a38e800180] EOF while reading input
+[in#1/rawvideo @ 0x55a38e800180] Terminating thread with return code 0 (success)
+[rawvideo @ 0x55a38e8119c0] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[vist#1:0/rawvideo @ 0x55a38e8030c0] [dec:rawvideo @ 0x55a38e810f40] Decoder thread received EOF packet
+[vist#1:0/rawvideo @ 0x55a38e8030c0] [dec:rawvideo @ 0x55a38e810f40] Decoder returned EOF, finishing
+[vist#1:0/rawvideo @ 0x55a38e8030c0] [dec:rawvideo @ 0x55a38e810f40] Terminating thread with return code 0 (success)
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_ssim_0 @ 0x7f6188004200] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[Parsed_psnr_1 @ 0x7f6188004640] Copying data in avfilter.
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[in#0/rawvideo @ 0x55a38e7fc940] EOF while reading input
+[in#0/rawvideo @ 0x55a38e7fc940] Terminating thread with return code 0 (success)
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[rawvideo @ 0x55a38e80fc00] PACKET SIZE: 307200, STRIDE: 960
+[vist#0:0/rawvideo @ 0x55a38e7ff980] [dec:rawvideo @ 0x55a38e80f180] Decoder thread received EOF packet
+[vist#0:0/rawvideo @ 0x55a38e7ff980] [dec:rawvideo @ 0x55a38e80f180] Decoder returned EOF, finishing
+[vist#0:0/rawvideo @ 0x55a38e7ff980] [dec:rawvideo @ 0x55a38e80f180] Terminating thread with return code 0 (success)
+[Parsed_ssim_0 @ 0x7f6188004200] [framesync @ 0x7f6188004308] Sync level 0
+[out_#0:0 @ 0x7f618800af00] EOF on sink link out_#0:0:default.
+[Parsed_psnr_1 @ 0x7f6188004640] [framesync @ 0x7f6188004788] Sync level 0
+[out_#0:1 @ 0x7f618800b400] EOF on sink link out_#0:1:default.
+[fc#0 @ 0x55a38e7f8d00] Filtergraph returned EOF, finishing
+[fc#0 @ 0x55a38e7f8d00] All consumers returned EOF
+[vost#0:0/wrapped_avframe @ 0x55a38e804180] Encoder thread received EOF
+[vost#0:1/wrapped_avframe @ 0x55a38e80d6c0] Encoder thread received EOF
+[vost#0:0/wrapped_avframe @ 0x55a38e804180] Terminating thread with return code 0 (success)
+[Parsed_ssim_0 @ 0x7f6188004200] SSIM Y:0.616244 (4.159443) U:0.861063 (8.571819) V:0.822643 (7.511508) All:0.691447 (5.106697)
+[vost#0:1/wrapped_avframe @ 0x55a38e80d6c0] Terminating thread with return code 0 (success)
+[out#0/null @ 0x55a38e7fa9c0] All streams finished
+[out#0/null @ 0x55a38e7fa9c0] Terminating thread with return code 0 (success)
+[Parsed_psnr_1 @ 0x7f6188004640] PSNR y:15.082094 u:28.131311 v:25.626990 average:16.695951 min:13.519248 max:29.088188
+[fc#0 @ 0x55a38e7f8d00] Terminating thread with return code 0 (success)
+[out#0/null @ 0x55a38e7fa9c0] Output file #0 (pipe:):
+[out#0/null @ 0x55a38e7fa9c0]   Output stream #0:0 (video): 350 frames encoded; 350 packets muxed (154000 bytes); 
+[out#0/null @ 0x55a38e7fa9c0]   Output stream #0:1 (video): 350 frames encoded; 350 packets muxed (154000 bytes); 
+[out#0/null @ 0x55a38e7fa9c0]   Total: 700 packets (308000 bytes) muxed
+[out#0/null @ 0x55a38e7fa9c0] video:301KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  350 fps=0.0 q=-0.0 Lq=-0.0 size=N/A time=00:00:14.00 bitrate=N/A speed= 232x    
+[in#0/rawvideo @ 0x55a38e7fc940] Input file #0 (/viewer/out_stream.yuv):
+[in#0/rawvideo @ 0x55a38e7fc940]   Input stream #0:0 (video): 350 packets read (107520000 bytes); 350 frames decoded; 0 decode errors; 
+[in#0/rawvideo @ 0x55a38e7fc940]   Total: 350 packets (107520000 bytes) demuxed
+[AVIOContext @ 0x55a38e7fd480] Statistics: 107520000 bytes read, 0 seeks
+[in#1/rawvideo @ 0x55a38e800180] Input file #1 (/viewer/ciro-23.yuv):
+[in#1/rawvideo @ 0x55a38e800180]   Input stream #1:0 (video): 299 packets read (91852800 bytes); 299 frames decoded; 0 decode errors; 
+[in#1/rawvideo @ 0x55a38e800180]   Total: 299 packets (91852800 bytes) demuxed
+[AVIOContext @ 0x55a38e7fa640] Statistics: 91852800 bytes read, 0 seeks
